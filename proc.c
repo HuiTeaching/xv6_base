@@ -266,7 +266,7 @@ void
 scheduler(void)
 {
   struct proc *p;
-  int ran = 0; // CS550: to solve the 100%-CPU-utilization-when-idling problem
+  int ran = 0; // CS350: to solve the 100%-CPU-utilization-when-idling problem
 
   for(;;){
     // Enable interrupts on this processor.
